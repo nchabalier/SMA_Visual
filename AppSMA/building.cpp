@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "building.h"
 #include <cstdlib>
 #include <cmath>

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "unit.h"
 #include <cmath>
 

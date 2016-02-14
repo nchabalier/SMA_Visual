@@ -89,17 +89,18 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\ISIMA\ZZ2\TP\tp_simu\tp6\Partie 2\git_sma\agent.cpp" />
-    <ClCompile Include="..\..\..\..\ISIMA\ZZ2\TP\tp_simu\tp6\Partie 2\git_sma\building.cpp" />
-    <ClCompile Include="..\..\..\..\ISIMA\ZZ2\TP\tp_simu\tp6\Partie 2\git_sma\game.cpp" />
-    <ClCompile Include="..\..\..\..\ISIMA\ZZ2\TP\tp_simu\tp6\Partie 2\git_sma\map.cpp" />
-    <ClCompile Include="..\..\..\..\ISIMA\ZZ2\TP\tp_simu\tp6\Partie 2\git_sma\position.cpp" />
-    <ClCompile Include="..\..\..\..\ISIMA\ZZ2\TP\tp_simu\tp6\Partie 2\git_sma\unit.cpp" />
+    <ClCompile Include="agent.cpp" />
     <ClCompile Include="AppSMA.cpp" />
+    <ClCompile Include="building.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="position.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="unit.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
